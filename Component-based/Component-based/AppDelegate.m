@@ -10,7 +10,7 @@
 #import "Mediator.h"
 #import "Mediator+KKGuidePage.h"
 #import "ViewController.h"
-#import "XSWMainTabbarController.h"
+#import "PSWMainTabbarController.h"
 
 @interface AppDelegate ()
 
@@ -30,7 +30,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     
-    XSWMainTabbarController *tabBarController = [[XSWMainTabbarController alloc] init];
+    PSWMainTabbarController *tabBarController = [[PSWMainTabbarController alloc] init];
     self.window.rootViewController = tabBarController;
     
     [self.window makeKeyAndVisible];

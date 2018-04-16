@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040701A120848BF100AA1F2B /* Tabbar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040701A020848BF100AA1F2B /* Tabbar.xcassets */; };
 		04826DA2201F58FF009D8609 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826DA1201F58FF009D8609 /* AppDelegate.m */; };
 		04826DA5201F58FF009D8609 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826DA4201F58FF009D8609 /* ViewController.m */; };
 		04826DA8201F58FF009D8609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04826DA6201F58FF009D8609 /* Main.storyboard */; };
@@ -24,17 +25,15 @@
 		04826DF02020AB61009D8609 /* KKGuidePageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826DEF2020AB61009D8609 /* KKGuidePageCell.m */; };
 		04826DF42020B356009D8609 /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826DF22020B356009D8609 /* RootNavigationController.m */; };
 		04826DFC2020B4BA009D8609 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826DFB2020B4BA009D8609 /* Common.m */; };
-		04826DFF2020B50F009D8609 /* XSWMainTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826DFE2020B50F009D8609 /* XSWMainTabbarController.m */; };
+		04826DFF2020B50F009D8609 /* PSWMainTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826DFE2020B50F009D8609 /* PSWMainTabbarController.m */; };
 		04826E072020B8B9009D8609 /* MallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826E062020B8B9009D8609 /* MallViewController.m */; };
 		04826E0A2020B8D5009D8609 /* DaypieceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826E092020B8D5009D8609 /* DaypieceViewController.m */; };
 		04826E0D2020B8F6009D8609 /* RunPiecesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826E0C2020B8F6009D8609 /* RunPiecesViewController.m */; };
-		04826E102020B90E009D8609 /* ShoppingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826E0F2020B90E009D8609 /* ShoppingViewController.m */; };
 		04826E132020B921009D8609 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826E122020B921009D8609 /* MineViewController.m */; };
 		04826E172020B956009D8609 /* KKMainAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826E162020B956009D8609 /* KKMainAction.m */; };
 		04826E1F2020BB94009D8609 /* Mediator+Mall.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826E1E2020BB94009D8609 /* Mediator+Mall.m */; };
 		04826E222020BBA6009D8609 /* Mediator+DayPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826E212020BBA6009D8609 /* Mediator+DayPiece.m */; };
 		04826E252020BBB2009D8609 /* Mediator+RunPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826E242020BBB2009D8609 /* Mediator+RunPiece.m */; };
-		04826E282020BBBF009D8609 /* Mediator+Shopping.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826E272020BBBF009D8609 /* Mediator+Shopping.m */; };
 		04826E2B2020BBC6009D8609 /* Mediator+Mine.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826E2A2020BBC6009D8609 /* Mediator+Mine.m */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040701A020848BF100AA1F2B /* Tabbar.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Tabbar.xcassets; sourceTree = "<group>"; };
 		04826D9D201F58FF009D8609 /* Component-based.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Component-based.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04826DA0201F58FF009D8609 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04826DA1201F58FF009D8609 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -89,16 +89,14 @@
 		04826DF32020B356009D8609 /* RootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
 		04826DFA2020B4BA009D8609 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		04826DFB2020B4BA009D8609 /* Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
-		04826DFD2020B50F009D8609 /* XSWMainTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSWMainTabbarController.h; sourceTree = "<group>"; };
-		04826DFE2020B50F009D8609 /* XSWMainTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSWMainTabbarController.m; sourceTree = "<group>"; };
+		04826DFD2020B50F009D8609 /* PSWMainTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWMainTabbarController.h; sourceTree = "<group>"; };
+		04826DFE2020B50F009D8609 /* PSWMainTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWMainTabbarController.m; sourceTree = "<group>"; };
 		04826E052020B8B9009D8609 /* MallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MallViewController.h; sourceTree = "<group>"; };
 		04826E062020B8B9009D8609 /* MallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MallViewController.m; sourceTree = "<group>"; };
 		04826E082020B8D5009D8609 /* DaypieceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DaypieceViewController.h; sourceTree = "<group>"; };
 		04826E092020B8D5009D8609 /* DaypieceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaypieceViewController.m; sourceTree = "<group>"; };
 		04826E0B2020B8F6009D8609 /* RunPiecesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunPiecesViewController.h; sourceTree = "<group>"; };
 		04826E0C2020B8F6009D8609 /* RunPiecesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunPiecesViewController.m; sourceTree = "<group>"; };
-		04826E0E2020B90E009D8609 /* ShoppingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingViewController.h; sourceTree = "<group>"; };
-		04826E0F2020B90E009D8609 /* ShoppingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingViewController.m; sourceTree = "<group>"; };
 		04826E112020B921009D8609 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
 		04826E122020B921009D8609 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		04826E152020B956009D8609 /* KKMainAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKMainAction.h; sourceTree = "<group>"; };
@@ -109,8 +107,6 @@
 		04826E212020BBA6009D8609 /* Mediator+DayPiece.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Mediator+DayPiece.m"; sourceTree = "<group>"; };
 		04826E232020BBB2009D8609 /* Mediator+RunPiece.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mediator+RunPiece.h"; sourceTree = "<group>"; };
 		04826E242020BBB2009D8609 /* Mediator+RunPiece.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Mediator+RunPiece.m"; sourceTree = "<group>"; };
-		04826E262020BBBF009D8609 /* Mediator+Shopping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mediator+Shopping.h"; sourceTree = "<group>"; };
-		04826E272020BBBF009D8609 /* Mediator+Shopping.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Mediator+Shopping.m"; sourceTree = "<group>"; };
 		04826E292020BBC6009D8609 /* Mediator+Mine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mediator+Mine.h"; sourceTree = "<group>"; };
 		04826E2A2020BBC6009D8609 /* Mediator+Mine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Mediator+Mine.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,6 +136,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0407019F20848BC500AA1F2B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				040701A020848BF100AA1F2B /* Tabbar.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		04826D94201F58FF009D8609 = {
 			isa = PBXGroup;
 			children = (
@@ -211,10 +215,9 @@
 			isa = PBXGroup;
 			children = (
 				04826E1C2020BB7A009D8609 /* 我的 */,
-				04826E1B2020BB73009D8609 /* 购物车 */,
-				04826E1A2020BB6B009D8609 /* 跑云件 */,
-				04826E192020BB61009D8609 /* 当日件 */,
-				04826E182020BB54009D8609 /* 商城 */,
+				04826E1A2020BB6B009D8609 /* 生活 */,
+				04826E192020BB61009D8609 /* 城市 */,
+				04826E182020BB54009D8609 /* 首页 */,
 				04826DD720209F90009D8609 /* 引导页 */,
 			);
 			path = Mediator;
@@ -233,10 +236,9 @@
 			isa = PBXGroup;
 			children = (
 				04826E042020B897009D8609 /* 我的 */,
-				04826E032020B88F009D8609 /* 购物车 */,
-				04826E022020B883009D8609 /* 跑云件 */,
-				04826E012020B879009D8609 /* 当日件 */,
-				04826E002020B7A6009D8609 /* 商城 */,
+				04826E022020B883009D8609 /* 生活 */,
+				04826E012020B879009D8609 /* 城市 */,
+				04826E002020B7A6009D8609 /* 首页 */,
 				04826DF12020B347009D8609 /* Root */,
 				04826DDC2020A3AB009D8609 /* 引导页 */,
 			);
@@ -310,6 +312,7 @@
 		04826DF12020B347009D8609 /* Root */ = {
 			isa = PBXGroup;
 			children = (
+				0407019F20848BC500AA1F2B /* Resource */,
 				04826DF92020B44A009D8609 /* Common */,
 				04826DF82020B442009D8609 /* Model */,
 				04826DF72020B43B009D8609 /* Action */,
@@ -322,8 +325,8 @@
 		04826DF52020B423009D8609 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				04826DFD2020B50F009D8609 /* XSWMainTabbarController.h */,
-				04826DFE2020B50F009D8609 /* XSWMainTabbarController.m */,
+				04826DFD2020B50F009D8609 /* PSWMainTabbarController.h */,
+				04826DFE2020B50F009D8609 /* PSWMainTabbarController.m */,
 				04826DF32020B356009D8609 /* RootNavigationController.h */,
 				04826DF22020B356009D8609 /* RootNavigationController.m */,
 			);
@@ -360,7 +363,7 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
-		04826E002020B7A6009D8609 /* 商城 */ = {
+		04826E002020B7A6009D8609 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
 				04826E2E2021E996009D8609 /* View */,
@@ -368,34 +371,25 @@
 				04826E2C2021E984009D8609 /* Controller */,
 				04826E142020B941009D8609 /* Action */,
 			);
-			path = "商城";
+			path = "首页";
 			sourceTree = "<group>";
 		};
-		04826E012020B879009D8609 /* 当日件 */ = {
+		04826E012020B879009D8609 /* 城市 */ = {
 			isa = PBXGroup;
 			children = (
 				04826E082020B8D5009D8609 /* DaypieceViewController.h */,
 				04826E092020B8D5009D8609 /* DaypieceViewController.m */,
 			);
-			path = "当日件";
+			path = "城市";
 			sourceTree = "<group>";
 		};
-		04826E022020B883009D8609 /* 跑云件 */ = {
+		04826E022020B883009D8609 /* 生活 */ = {
 			isa = PBXGroup;
 			children = (
 				04826E0B2020B8F6009D8609 /* RunPiecesViewController.h */,
 				04826E0C2020B8F6009D8609 /* RunPiecesViewController.m */,
 			);
-			path = "跑云件";
-			sourceTree = "<group>";
-		};
-		04826E032020B88F009D8609 /* 购物车 */ = {
-			isa = PBXGroup;
-			children = (
-				04826E0E2020B90E009D8609 /* ShoppingViewController.h */,
-				04826E0F2020B90E009D8609 /* ShoppingViewController.m */,
-			);
-			path = "购物车";
+			path = "生活";
 			sourceTree = "<group>";
 		};
 		04826E042020B897009D8609 /* 我的 */ = {
@@ -416,40 +410,31 @@
 			path = Action;
 			sourceTree = "<group>";
 		};
-		04826E182020BB54009D8609 /* 商城 */ = {
+		04826E182020BB54009D8609 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
 				04826E1D2020BB94009D8609 /* Mediator+Mall.h */,
 				04826E1E2020BB94009D8609 /* Mediator+Mall.m */,
 			);
-			path = "商城";
+			path = "首页";
 			sourceTree = "<group>";
 		};
-		04826E192020BB61009D8609 /* 当日件 */ = {
+		04826E192020BB61009D8609 /* 城市 */ = {
 			isa = PBXGroup;
 			children = (
 				04826E202020BBA6009D8609 /* Mediator+DayPiece.h */,
 				04826E212020BBA6009D8609 /* Mediator+DayPiece.m */,
 			);
-			path = "当日件";
+			path = "城市";
 			sourceTree = "<group>";
 		};
-		04826E1A2020BB6B009D8609 /* 跑云件 */ = {
+		04826E1A2020BB6B009D8609 /* 生活 */ = {
 			isa = PBXGroup;
 			children = (
 				04826E232020BBB2009D8609 /* Mediator+RunPiece.h */,
 				04826E242020BBB2009D8609 /* Mediator+RunPiece.m */,
 			);
-			path = "跑云件";
-			sourceTree = "<group>";
-		};
-		04826E1B2020BB73009D8609 /* 购物车 */ = {
-			isa = PBXGroup;
-			children = (
-				04826E262020BBBF009D8609 /* Mediator+Shopping.h */,
-				04826E272020BBBF009D8609 /* Mediator+Shopping.m */,
-			);
-			path = "购物车";
+			path = "生活";
 			sourceTree = "<group>";
 		};
 		04826E1C2020BB7A009D8609 /* 我的 */ = {
@@ -597,6 +582,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040701A120848BF100AA1F2B /* Tabbar.xcassets in Resources */,
 				04826DAD201F58FF009D8609 /* LaunchScreen.storyboard in Resources */,
 				04826DEA2020A6D5009D8609 /* GuidePage.xcassets in Resources */,
 				04826DAA201F58FF009D8609 /* Assets.xcassets in Resources */,
@@ -638,7 +624,6 @@
 				04826E1F2020BB94009D8609 /* Mediator+Mall.m in Sources */,
 				04826DDA2020A052009D8609 /* Mediator+KKGuidePage.m in Sources */,
 				04826E172020B956009D8609 /* KKMainAction.m in Sources */,
-				04826E102020B90E009D8609 /* ShoppingViewController.m in Sources */,
 				04826E2B2020BBC6009D8609 /* Mediator+Mine.m in Sources */,
 				04826DA2201F58FF009D8609 /* AppDelegate.m in Sources */,
 				04826E252020BBB2009D8609 /* Mediator+RunPiece.m in Sources */,
@@ -646,8 +631,7 @@
 				04826DF02020AB61009D8609 /* KKGuidePageCell.m in Sources */,
 				04826DED2020A991009D8609 /* KKGuidePageController.m in Sources */,
 				04826E0A2020B8D5009D8609 /* DaypieceViewController.m in Sources */,
-				04826E282020BBBF009D8609 /* Mediator+Shopping.m in Sources */,
-				04826DFF2020B50F009D8609 /* XSWMainTabbarController.m in Sources */,
+				04826DFF2020B50F009D8609 /* PSWMainTabbarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

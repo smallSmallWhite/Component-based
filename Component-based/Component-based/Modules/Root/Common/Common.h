@@ -19,6 +19,8 @@
 //透明度可调
 #define kRGB_alpha(R,G,B,A) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A]
 
+//项目里面所有的红色
+#define kRedColor UIColorFromRGBValue(0xfd7673)
 //蓝色
 #define kBlueColor UIColorFromRGBValue(0x00a0e9)
 //导航栏上面字体的颜色
