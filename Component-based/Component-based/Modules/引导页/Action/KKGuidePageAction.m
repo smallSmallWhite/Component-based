@@ -8,7 +8,7 @@
 
 #import "KKGuidePageAction.h"
 #import "KKGuideAppearTools.h"
-#import "KKGuidePageController.h"
+#import "PSGuidePageController.h"
 
 @implementation KKGuidePageAction
 
@@ -16,18 +16,17 @@
     
     BOOL appear = [KKGuideAppearTools isShowGuidePage];
     if (appear) {
-        KKGuidePageController *vc = [[KKGuidePageController alloc] init];
+        PSGuidePageController *vc = [[PSGuidePageController alloc] init];
         [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:vc animated:NO completion:nil];
         return @"1";
     }else{
-        
         return @"0";
     }
 }
 -(id)KKGuideAppearFrom:(NSDictionary *)controller {
     
     UIViewController *Controller = controller[@"Controller"];
-    KKGuidePageController *vc = [[KKGuidePageController alloc] init];
+    PSGuidePageController *vc = [[PSGuidePageController alloc] init];
     [Controller presentViewController:vc animated:NO completion:nil];
     return @"";
 }

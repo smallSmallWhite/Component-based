@@ -21,8 +21,8 @@
 		04826DE02020A3E5009D8609 /* KKGuidePageAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826DDF2020A3E5009D8609 /* KKGuidePageAction.m */; };
 		04826DE72020A5B5009D8609 /* KKGuideAppearTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826DE62020A5B5009D8609 /* KKGuideAppearTools.m */; };
 		04826DEA2020A6D5009D8609 /* GuidePage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04826DE92020A6D5009D8609 /* GuidePage.xcassets */; };
-		04826DED2020A991009D8609 /* KKGuidePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826DEC2020A991009D8609 /* KKGuidePageController.m */; };
-		04826DF02020AB61009D8609 /* KKGuidePageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826DEF2020AB61009D8609 /* KKGuidePageCell.m */; };
+		04826DED2020A991009D8609 /* PSGuidePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826DEC2020A991009D8609 /* PSGuidePageController.m */; };
+		04826DF02020AB61009D8609 /* PSGuidePageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826DEF2020AB61009D8609 /* PSGuidePageCell.m */; };
 		04826DF42020B356009D8609 /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826DF22020B356009D8609 /* RootNavigationController.m */; };
 		04826DFC2020B4BA009D8609 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826DFB2020B4BA009D8609 /* Common.m */; };
 		04826DFF2020B50F009D8609 /* PSWMainTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04826DFE2020B50F009D8609 /* PSWMainTabbarController.m */; };
@@ -56,6 +56,7 @@
 
 /* Begin PBXFileReference section */
 		040701A020848BF100AA1F2B /* Tabbar.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Tabbar.xcassets; sourceTree = "<group>"; };
+		040701A32084910D00AA1F2B /* Public.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Public.h; sourceTree = "<group>"; };
 		04826D9D201F58FF009D8609 /* Component-based.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Component-based.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04826DA0201F58FF009D8609 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04826DA1201F58FF009D8609 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,10 +82,10 @@
 		04826DE52020A5B5009D8609 /* KKGuideAppearTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKGuideAppearTools.h; sourceTree = "<group>"; };
 		04826DE62020A5B5009D8609 /* KKGuideAppearTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKGuideAppearTools.m; sourceTree = "<group>"; };
 		04826DE92020A6D5009D8609 /* GuidePage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = GuidePage.xcassets; sourceTree = "<group>"; };
-		04826DEB2020A991009D8609 /* KKGuidePageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKGuidePageController.h; sourceTree = "<group>"; };
-		04826DEC2020A991009D8609 /* KKGuidePageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKGuidePageController.m; sourceTree = "<group>"; };
-		04826DEE2020AB61009D8609 /* KKGuidePageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKGuidePageCell.h; sourceTree = "<group>"; };
-		04826DEF2020AB61009D8609 /* KKGuidePageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKGuidePageCell.m; sourceTree = "<group>"; };
+		04826DEB2020A991009D8609 /* PSGuidePageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSGuidePageController.h; sourceTree = "<group>"; };
+		04826DEC2020A991009D8609 /* PSGuidePageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSGuidePageController.m; sourceTree = "<group>"; };
+		04826DEE2020AB61009D8609 /* PSGuidePageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSGuidePageCell.h; sourceTree = "<group>"; };
+		04826DEF2020AB61009D8609 /* PSGuidePageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSGuidePageCell.m; sourceTree = "<group>"; };
 		04826DF22020B356009D8609 /* RootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
 		04826DF32020B356009D8609 /* RootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
 		04826DFA2020B4BA009D8609 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
@@ -144,6 +145,14 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		040701A2208490FB00AA1F2B /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				040701A32084910D00AA1F2B /* Public.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
 		04826D94201F58FF009D8609 = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +176,7 @@
 		04826D9F201F58FF009D8609 /* Component-based */ = {
 			isa = PBXGroup;
 			children = (
+				040701A2208490FB00AA1F2B /* Public */,
 				04826E2F2021EA01009D8609 /* Support */,
 				04826DDB2020A39C009D8609 /* Modules */,
 				04826DD620209F81009D8609 /* Mediator */,
@@ -286,8 +296,8 @@
 		04826DE32020A573009D8609 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				04826DEE2020AB61009D8609 /* KKGuidePageCell.h */,
-				04826DEF2020AB61009D8609 /* KKGuidePageCell.m */,
+				04826DEE2020AB61009D8609 /* PSGuidePageCell.h */,
+				04826DEF2020AB61009D8609 /* PSGuidePageCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -295,8 +305,8 @@
 		04826DE42020A578009D8609 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				04826DEB2020A991009D8609 /* KKGuidePageController.h */,
-				04826DEC2020A991009D8609 /* KKGuidePageController.m */,
+				04826DEB2020A991009D8609 /* PSGuidePageController.h */,
+				04826DEC2020A991009D8609 /* PSGuidePageController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -628,8 +638,8 @@
 				04826DA2201F58FF009D8609 /* AppDelegate.m in Sources */,
 				04826E252020BBB2009D8609 /* Mediator+RunPiece.m in Sources */,
 				04826E132020B921009D8609 /* MineViewController.m in Sources */,
-				04826DF02020AB61009D8609 /* KKGuidePageCell.m in Sources */,
-				04826DED2020A991009D8609 /* KKGuidePageController.m in Sources */,
+				04826DF02020AB61009D8609 /* PSGuidePageCell.m in Sources */,
+				04826DED2020A991009D8609 /* PSGuidePageController.m in Sources */,
 				04826E0A2020B8D5009D8609 /* DaypieceViewController.m in Sources */,
 				04826DFF2020B50F009D8609 /* PSWMainTabbarController.m in Sources */,
 			);

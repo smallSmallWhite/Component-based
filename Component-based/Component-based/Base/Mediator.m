@@ -88,6 +88,7 @@
         
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
+        //target 作用的目标
         return [target performSelector:action withObject:params];
 #pragma clang diagnostic pop
         

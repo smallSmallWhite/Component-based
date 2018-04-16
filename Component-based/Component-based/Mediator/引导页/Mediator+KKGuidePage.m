@@ -22,6 +22,7 @@ NSString *const KKGuidePageAppear = @"KKGuideAppearFrom:";
 -(void)KKGuidePageAppear:(UIViewController *)controller {
     
     MediatorOptions *options = [MediatorOptions optionsWithTargetName:KKGuidePageTarget actionName:KKGuidePageAppear];
+    options.parameters = @{@"Controller":controller};
     [self performWithOptions:options];
 }
 

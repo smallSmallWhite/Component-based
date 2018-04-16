@@ -6,17 +6,20 @@
 //  Copyright © 2018年 mac. All rights reserved.
 //
 
-#import "KKGuidePageController.h"
-#import "KKGuidePageCell.h"
+#import "PSGuidePageController.h"
+#import "PSGuidePageCell.h"
+#import "Public.h"
 #import "Common.h"
 
-@interface KKGuidePageController ()
+//引导页的个数
+#define kUserGuidePageNumber  3
+@interface PSGuidePageController ()<PSGuidePageCellDelegate>
 
 @property(nonatomic,strong)UIPageControl *control;
 
 @end
 
-@implementation KKGuidePageController
+@implementation PSGuidePageController
 
 static NSString * const reuseIdentifier = @"Cell";
 
@@ -35,7 +38,7 @@ static NSString *ID = @"cell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.collectionView registerClass:[KKGuidePageCell class] forCellWithReuseIdentifier:ID];
+    [self.collectionView registerClass:[PSGuidePageCell class] forCellWithReuseIdentifier:ID];
     self.collectionView.pagingEnabled = YES;
     self.collectionView.bounces = NO;
     self.collectionView.showsHorizontalScrollIndicator = NO;
@@ -43,11 +46,18 @@ static NSString *ID = @"cell";
 }
 - (void)setUpPageControl
 {
+    CGFloat height = 0.0;
+    if (kIs_iPhoneX) {
+        
+        height = screenH - 40 - 34;
+    }else{
+        height = screenH - 40;
+    }
     UIPageControl *control = [[UIPageControl alloc] init];
-    control.numberOfPages = 4;
+    control.numberOfPages = kUserGuidePageNumber;
     control.pageIndicatorTintColor = [UIColor grayColor];
-    control.currentPageIndicatorTintColor = kBlueColor;
-    control.frame = CGRectMake(0, CGRectGetHeight(self.view.frame) - 40, CGRectGetWidth(self.view.frame), 20);
+    control.currentPageIndicatorTintColor = kRedColor;
+    control.frame = CGRectMake(0, height, CGRectGetWidth(self.view.frame), 20);
     _control = control;
     [_control addTarget:self action:@selector(ChagePage:) forControlEvents:UIControlEventValueChanged];
      [self.view addSubview:control];
@@ -69,13 +79,22 @@ static NSString *ID = @"cell";
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return 4;
+    return kUserGuidePageNumber;
 }
-
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    KKGuidePageCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:ID forIndexPath:indexPath];
-    NSString *imageName = [NSString stringWithFormat:@"引导页-%ld",(unsigned long)indexPath.row + 1];
+    PSGuidePageCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:ID forIndexPath:indexPath];
+    NSString *imageName = @"";
+    if (kIs_iPhoneX) {
+        
+        imageName = [NSString stringWithFormat:@"UserGuide_X%ld",(unsigned long)indexPath.row + 1];
+        
+    }else{
+        
+        imageName = [NSString stringWithFormat:@"UserGuide_small%ld",(unsigned long)indexPath.row + 1];
+    }
+    [cell setCellWithIndex:indexPath.row];
+    cell.delegate = self;
     cell.image = [UIImage imageNamed:imageName];
     
     return cell;
@@ -83,11 +102,14 @@ static NSString *ID = @"cell";
 }
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     
-    if (indexPath.row == 3) {
+    if (indexPath.row == kUserGuidePageNumber - 1) {
         [self dismissViewControllerAnimated:YES completion:nil];
     }
 }
-
-
+#pragma mark ==================协议代理==================
+-(void)jumpBtnAction {
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 @end

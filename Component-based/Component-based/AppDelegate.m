@@ -35,6 +35,8 @@
     
     [self.window makeKeyAndVisible];
     [[Mediator sharedInstance]KKGuidePageChoiceAppear];
+    //控制引导页是否展示
+    [[NSUserDefaults standardUserDefaults] setValue:@"1" forKey:@"引导页"];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

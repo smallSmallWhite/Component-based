@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KKGuidePageController : UICollectionViewController
+@interface PSGuidePageController : UICollectionViewController
 
 @end
