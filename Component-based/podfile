@@ -1,0 +1,21 @@
+target 'Component-based' do
+pod 'PSCategory', '~>0.0.5'
+pod 'YYWebImage'
+pod 'YYImage/WebP'
+pod 'SDAutoLayout', '~> 2.2.0'
+pod 'AFNetworking', '~> 3.2.0'
+pod 'OnceKit’
+pod 'OnceLoadingView'
+pod 'IQKeyboardManager', '~> 5.0.7'
+pod 'ReactiveObjC', '~> 3.1.0'
+pod 'SDCycleScrollView', '~> 1.75'
+pod 'CYLTabBarController', '~> 1.17.6'
+pod 'WRNavigationBar', '~> 1.2.0'
+pod 'MMPopupView', '~> 1.7.2'
+pod 'YYModel', '~> 1.0.4'
+pod 'YYText', '~> 1.0.7'
+pod 'FMDB', '~> 2.6.2'
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+  # Pods for wuye
+end
