@@ -94,14 +94,10 @@ EOM
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle"
   install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
-  install_resource "${PODS_ROOT}/OnceKit/OnceKit/Assets/Assets.xcassets"
-  install_resource "${PODS_ROOT}/OnceLoadingView/OnceLoadingView/Assets/OnceLoadingViewAssets.xcassets"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle"
   install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
-  install_resource "${PODS_ROOT}/OnceKit/OnceKit/Assets/Assets.xcassets"
-  install_resource "${PODS_ROOT}/OnceLoadingView/OnceLoadingView/Assets/OnceLoadingViewAssets.xcassets"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

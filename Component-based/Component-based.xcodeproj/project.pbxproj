@@ -51,6 +51,13 @@
 		0497D33F2085EC1C002D7C95 /* BKLoadingShoppingCart.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0497D3382085EC1A002D7C95 /* BKLoadingShoppingCart.bundle */; };
 		0497D3402085EC1C002D7C95 /* HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0497D33A2085EC1B002D7C95 /* HUD.m */; };
 		0497D3462085F01F002D7C95 /* PSThirdLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0497D3452085F01F002D7C95 /* PSThirdLoginView.m */; };
+		04E30C5F208600C7000A9C30 /* Mediator+Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E30C5E208600C7000A9C30 /* Mediator+Register.m */; };
+		04E30C6920860216000A9C30 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E30C6820860216000A9C30 /* RegisterViewController.m */; };
+		04E30C6C20860252000A9C30 /* RegisterAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E30C6B20860252000A9C30 /* RegisterAction.m */; };
+		04E30C6E2086D41D000A9C30 /* Register.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E30C6D2086D41D000A9C30 /* Register.xcassets */; };
+		04E30C712086D7C8000A9C30 /* RegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E30C702086D7C8000A9C30 /* RegisterView.m */; };
+		04E30C742086DE06000A9C30 /* PSVerifyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E30C732086DE06000A9C30 /* PSVerifyTextField.m */; };
+		04E30C782086E6D5000A9C30 /* PSTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E30C772086E6D5000A9C30 /* PSTools.m */; };
 		8017C408A59B92E4BC55976A /* libPods-Component-based.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97FEC3AECF7BA72CE8D4ACC2 /* libPods-Component-based.a */; };
 /* End PBXBuildFile section */
 
@@ -156,6 +163,19 @@
 		0497D33A2085EC1B002D7C95 /* HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUD.m; sourceTree = "<group>"; };
 		0497D3442085F01F002D7C95 /* PSThirdLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSThirdLoginView.h; sourceTree = "<group>"; };
 		0497D3452085F01F002D7C95 /* PSThirdLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSThirdLoginView.m; sourceTree = "<group>"; };
+		04E30C5D208600C7000A9C30 /* Mediator+Register.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mediator+Register.h"; sourceTree = "<group>"; };
+		04E30C5E208600C7000A9C30 /* Mediator+Register.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Mediator+Register.m"; sourceTree = "<group>"; };
+		04E30C6720860216000A9C30 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		04E30C6820860216000A9C30 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		04E30C6A20860252000A9C30 /* RegisterAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterAction.h; sourceTree = "<group>"; };
+		04E30C6B20860252000A9C30 /* RegisterAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterAction.m; sourceTree = "<group>"; };
+		04E30C6D2086D41D000A9C30 /* Register.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Register.xcassets; sourceTree = "<group>"; };
+		04E30C6F2086D7C8000A9C30 /* RegisterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterView.h; sourceTree = "<group>"; };
+		04E30C702086D7C8000A9C30 /* RegisterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterView.m; sourceTree = "<group>"; };
+		04E30C722086DE06000A9C30 /* PSVerifyTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSVerifyTextField.h; sourceTree = "<group>"; };
+		04E30C732086DE06000A9C30 /* PSVerifyTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSVerifyTextField.m; sourceTree = "<group>"; };
+		04E30C762086E6D5000A9C30 /* PSTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSTools.h; sourceTree = "<group>"; };
+		04E30C772086E6D5000A9C30 /* PSTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSTools.m; sourceTree = "<group>"; };
 		16F968B6AB421D3E4A478098 /* Pods-Component-based.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Component-based.release.xcconfig"; path = "Pods/Target Support Files/Pods-Component-based/Pods-Component-based.release.xcconfig"; sourceTree = "<group>"; };
 		38E440A99CC76F0117DC4E88 /* Pods-Component-based.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Component-based.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Component-based/Pods-Component-based.debug.xcconfig"; sourceTree = "<group>"; };
 		97FEC3AECF7BA72CE8D4ACC2 /* libPods-Component-based.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Component-based.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -198,6 +218,7 @@
 		040701A2208490FB00AA1F2B /* Public */ = {
 			isa = PBXGroup;
 			children = (
+				04E30C752086E6BF000A9C30 /* Toolds */,
 				040701C12085816400AA1F2B /* Category */,
 				040701B82084ADCE00AA1F2B /* UserCenter */,
 				040701A32084910D00AA1F2B /* Public.h */,
@@ -374,6 +395,7 @@
 		04826DD620209F81009D8609 /* Mediator */ = {
 			isa = PBXGroup;
 			children = (
+				04E30C5C208600AA000A9C30 /* 注册 */,
 				040701A42084A7AF00AA1F2B /* 登录 */,
 				04826E1C2020BB7A009D8609 /* 我的 */,
 				04826E1A2020BB6B009D8609 /* 生活 */,
@@ -396,6 +418,7 @@
 		04826DDB2020A39C009D8609 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				04E30C60208601C6000A9C30 /* 注册 */,
 				040701AB2084AA0300AA1F2B /* 登录 */,
 				04826E042020B897009D8609 /* 我的 */,
 				04826E022020B883009D8609 /* 生活 */,
@@ -663,6 +686,88 @@
 			path = HUD;
 			sourceTree = "<group>";
 		};
+		04E30C5C208600AA000A9C30 /* 注册 */ = {
+			isa = PBXGroup;
+			children = (
+				04E30C5D208600C7000A9C30 /* Mediator+Register.h */,
+				04E30C5E208600C7000A9C30 /* Mediator+Register.m */,
+			);
+			path = "注册";
+			sourceTree = "<group>";
+		};
+		04E30C60208601C6000A9C30 /* 注册 */ = {
+			isa = PBXGroup;
+			children = (
+				04E30C66208601FB000A9C30 /* Rescource */,
+				04E30C65208601EE000A9C30 /* Action */,
+				04E30C64208601E8000A9C30 /* Model */,
+				04E30C63208601E3000A9C30 /* View */,
+				04E30C62208601D9000A9C30 /* Controller */,
+				04E30C61208601D0000A9C30 /* Common */,
+			);
+			path = "注册";
+			sourceTree = "<group>";
+		};
+		04E30C61208601D0000A9C30 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		04E30C62208601D9000A9C30 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04E30C6720860216000A9C30 /* RegisterViewController.h */,
+				04E30C6820860216000A9C30 /* RegisterViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04E30C63208601E3000A9C30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04E30C6F2086D7C8000A9C30 /* RegisterView.h */,
+				04E30C702086D7C8000A9C30 /* RegisterView.m */,
+				04E30C722086DE06000A9C30 /* PSVerifyTextField.h */,
+				04E30C732086DE06000A9C30 /* PSVerifyTextField.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04E30C64208601E8000A9C30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04E30C65208601EE000A9C30 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				04E30C6A20860252000A9C30 /* RegisterAction.h */,
+				04E30C6B20860252000A9C30 /* RegisterAction.m */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		04E30C66208601FB000A9C30 /* Rescource */ = {
+			isa = PBXGroup;
+			children = (
+				04E30C6D2086D41D000A9C30 /* Register.xcassets */,
+			);
+			path = Rescource;
+			sourceTree = "<group>";
+		};
+		04E30C752086E6BF000A9C30 /* Toolds */ = {
+			isa = PBXGroup;
+			children = (
+				04E30C762086E6D5000A9C30 /* PSTools.h */,
+				04E30C772086E6D5000A9C30 /* PSTools.m */,
+			);
+			path = Toolds;
+			sourceTree = "<group>";
+		};
 		3D7BD6FED1C41304FF7D06D9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -792,6 +897,7 @@
 				0497D33F2085EC1C002D7C95 /* BKLoadingShoppingCart.bundle in Resources */,
 				040701BD20857FD200AA1F2B /* Login.xcassets in Resources */,
 				04826DAD201F58FF009D8609 /* LaunchScreen.storyboard in Resources */,
+				04E30C6E2086D41D000A9C30 /* Register.xcassets in Resources */,
 				04826DEA2020A6D5009D8609 /* GuidePage.xcassets in Resources */,
 				04826DAA201F58FF009D8609 /* Assets.xcassets in Resources */,
 				0497D33D2085EC1C002D7C95 /* BKLoading.bundle in Resources */,
@@ -825,14 +931,11 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Component-based/Pods-Component-based-resources.sh",
 				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
-				"${PODS_ROOT}/OnceKit/OnceKit/Assets/Assets.xcassets",
-				"${PODS_ROOT}/OnceLoadingView/OnceLoadingView/Assets/OnceLoadingViewAssets.xcassets",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -871,7 +974,11 @@
 				04826E072020B8B9009D8609 /* MallViewController.m in Sources */,
 				040701AA2084A81600AA1F2B /* Mediator+Login.m in Sources */,
 				0497D32E2085DBE8002D7C95 /* PSPwdTextField.m in Sources */,
+				04E30C6C20860252000A9C30 /* RegisterAction.m in Sources */,
+				04E30C782086E6D5000A9C30 /* PSTools.m in Sources */,
 				04826E222020BBA6009D8609 /* Mediator+DayPiece.m in Sources */,
+				04E30C712086D7C8000A9C30 /* RegisterView.m in Sources */,
+				04E30C5F208600C7000A9C30 /* Mediator+Register.m in Sources */,
 				04826DFC2020B4BA009D8609 /* Common.m in Sources */,
 				04826DA5201F58FF009D8609 /* ViewController.m in Sources */,
 				040701B42084AAAF00AA1F2B /* kkLoginAction.m in Sources */,
@@ -887,6 +994,7 @@
 				04826E1F2020BB94009D8609 /* Mediator+Mall.m in Sources */,
 				04826DDA2020A052009D8609 /* Mediator+KKGuidePage.m in Sources */,
 				04826E172020B956009D8609 /* KKMainAction.m in Sources */,
+				04E30C742086DE06000A9C30 /* PSVerifyTextField.m in Sources */,
 				0497D3282085CA0E002D7C95 /* PSLoginView.m in Sources */,
 				04826E2B2020BBC6009D8609 /* Mediator+Mine.m in Sources */,
 				04826DA2201F58FF009D8609 /* AppDelegate.m in Sources */,
@@ -894,6 +1002,7 @@
 				04826E132020B921009D8609 /* MineViewController.m in Sources */,
 				04826DF02020AB61009D8609 /* PSGuidePageCell.m in Sources */,
 				04826DED2020A991009D8609 /* PSGuidePageController.m in Sources */,
+				04E30C6920860216000A9C30 /* RegisterViewController.m in Sources */,
 				040701BB2084ADE000AA1F2B /* UserCenter.m in Sources */,
 				04826E0A2020B8D5009D8609 /* DaypieceViewController.m in Sources */,
 				04826DFF2020B50F009D8609 /* PSWMainTabbarController.m in Sources */,

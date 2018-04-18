@@ -39,6 +39,8 @@
 #define kThemeColor UIColorFromRGBValue(0xfd7673)
 //按钮没有选中的呀呢
 #define kBtnNormalColor UIColorFromRGBValue(0xdddddd)
+//控制器背景颜色
+#define kControllerBackgroundColor UIColorFromRGBValue(0xf4f4f4)
 
 //存储用户相关的数据的头文件
 #import "UserCenter.h"
@@ -54,6 +56,8 @@
 #import <PSPrefixHeader.h>
 //加载框提示文字
 #import "HUD.h"
+//全局工具类
+#import "PSTools.h"
 
 
 #endif /* Public_h */

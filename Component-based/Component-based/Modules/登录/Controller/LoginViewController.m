@@ -11,6 +11,7 @@
 #import "PSLoginTopView.h"
 #import "PSLoginView.h"
 #import "PSThirdLoginView.h"
+#import "Mediator+Register.h"
 
 @interface LoginViewController ()<PSLoginViewDelegate,PSThirdLoginViewDelegate>
 
@@ -90,7 +91,9 @@
             break;
         case 5001:
         {
-            [HUD showMessage:@"点击注册按钮"];
+            //跳转注册界面
+            UIViewController *vc = [[Mediator sharedInstance] kkUser_RegisterControllerWithAccount:@"测试"];
+            [self presentViewController:vc animated:YES completion:nil];
         }
             break;
         case 5002:
@@ -132,6 +135,7 @@
     if (!_loginPopView) {
         
         _loginPopView = [[PSLoginTopView alloc] initWithFrame:CGRectMake(0, 0, screenW, [self autoScaleH:[self autoScaleH:261]])];
+        _loginPopView.returnImageView.hidden = YES;
     }
     return _loginPopView;
 }
