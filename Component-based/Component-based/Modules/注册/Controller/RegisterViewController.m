@@ -116,7 +116,11 @@
             sender.userInteractionEnabled = NO;
         }
             break;
-            
+        case 5001:
+        {
+            [HUD showMessage:@"点击注册按钮"];
+        }
+            break;
         default:
             break;
     }

@@ -58,6 +58,11 @@
 		04E30C712086D7C8000A9C30 /* RegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E30C702086D7C8000A9C30 /* RegisterView.m */; };
 		04E30C742086DE06000A9C30 /* PSVerifyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E30C732086DE06000A9C30 /* PSVerifyTextField.m */; };
 		04E30C782086E6D5000A9C30 /* PSTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E30C772086E6D5000A9C30 /* PSTools.m */; };
+		04E30C7C2087145E000A9C30 /* Mediator+ForgetPwd.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E30C7B2087145E000A9C30 /* Mediator+ForgetPwd.m */; };
+		04E30C862087155C000A9C30 /* ForgetPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E30C852087155C000A9C30 /* ForgetPwdViewController.m */; };
+		04E30C89208715A6000A9C30 /* ForgetTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E30C88208715A6000A9C30 /* ForgetTargetAction.m */; };
+		04E30C8B20871848000A9C30 /* ForgetPwd.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E30C8A20871848000A9C30 /* ForgetPwd.xcassets */; };
+		04E30C8E20871B9C000A9C30 /* PSForgetPwdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E30C8D20871B9C000A9C30 /* PSForgetPwdView.m */; };
 		8017C408A59B92E4BC55976A /* libPods-Component-based.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97FEC3AECF7BA72CE8D4ACC2 /* libPods-Component-based.a */; };
 /* End PBXBuildFile section */
 
@@ -176,6 +181,15 @@
 		04E30C732086DE06000A9C30 /* PSVerifyTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSVerifyTextField.m; sourceTree = "<group>"; };
 		04E30C762086E6D5000A9C30 /* PSTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSTools.h; sourceTree = "<group>"; };
 		04E30C772086E6D5000A9C30 /* PSTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSTools.m; sourceTree = "<group>"; };
+		04E30C7A2087145E000A9C30 /* Mediator+ForgetPwd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mediator+ForgetPwd.h"; sourceTree = "<group>"; };
+		04E30C7B2087145E000A9C30 /* Mediator+ForgetPwd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Mediator+ForgetPwd.m"; sourceTree = "<group>"; };
+		04E30C842087155C000A9C30 /* ForgetPwdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgetPwdViewController.h; sourceTree = "<group>"; };
+		04E30C852087155C000A9C30 /* ForgetPwdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetPwdViewController.m; sourceTree = "<group>"; };
+		04E30C87208715A6000A9C30 /* ForgetTargetAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgetTargetAction.h; sourceTree = "<group>"; };
+		04E30C88208715A6000A9C30 /* ForgetTargetAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetTargetAction.m; sourceTree = "<group>"; };
+		04E30C8A20871848000A9C30 /* ForgetPwd.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ForgetPwd.xcassets; sourceTree = "<group>"; };
+		04E30C8C20871B9C000A9C30 /* PSForgetPwdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSForgetPwdView.h; sourceTree = "<group>"; };
+		04E30C8D20871B9C000A9C30 /* PSForgetPwdView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSForgetPwdView.m; sourceTree = "<group>"; };
 		16F968B6AB421D3E4A478098 /* Pods-Component-based.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Component-based.release.xcconfig"; path = "Pods/Target Support Files/Pods-Component-based/Pods-Component-based.release.xcconfig"; sourceTree = "<group>"; };
 		38E440A99CC76F0117DC4E88 /* Pods-Component-based.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Component-based.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Component-based/Pods-Component-based.debug.xcconfig"; sourceTree = "<group>"; };
 		97FEC3AECF7BA72CE8D4ACC2 /* libPods-Component-based.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Component-based.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -395,6 +409,7 @@
 		04826DD620209F81009D8609 /* Mediator */ = {
 			isa = PBXGroup;
 			children = (
+				04E30C7920871440000A9C30 /* 忘记密码 */,
 				04E30C5C208600AA000A9C30 /* 注册 */,
 				040701A42084A7AF00AA1F2B /* 登录 */,
 				04826E1C2020BB7A009D8609 /* 我的 */,
@@ -418,6 +433,7 @@
 		04826DDB2020A39C009D8609 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				04E30C7D2087150F000A9C30 /* 忘记密码 */,
 				04E30C60208601C6000A9C30 /* 注册 */,
 				040701AB2084AA0300AA1F2B /* 登录 */,
 				04826E042020B897009D8609 /* 我的 */,
@@ -768,6 +784,77 @@
 			path = Toolds;
 			sourceTree = "<group>";
 		};
+		04E30C7920871440000A9C30 /* 忘记密码 */ = {
+			isa = PBXGroup;
+			children = (
+				04E30C7A2087145E000A9C30 /* Mediator+ForgetPwd.h */,
+				04E30C7B2087145E000A9C30 /* Mediator+ForgetPwd.m */,
+			);
+			path = "忘记密码";
+			sourceTree = "<group>";
+		};
+		04E30C7D2087150F000A9C30 /* 忘记密码 */ = {
+			isa = PBXGroup;
+			children = (
+				04E30C832087153D000A9C30 /* Resource */,
+				04E30C8220871534000A9C30 /* Action */,
+				04E30C812087152E000A9C30 /* Common */,
+				04E30C8020871525000A9C30 /* Model */,
+				04E30C7F20871520000A9C30 /* View */,
+				04E30C7E20871519000A9C30 /* Controller */,
+			);
+			path = "忘记密码";
+			sourceTree = "<group>";
+		};
+		04E30C7E20871519000A9C30 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04E30C842087155C000A9C30 /* ForgetPwdViewController.h */,
+				04E30C852087155C000A9C30 /* ForgetPwdViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04E30C7F20871520000A9C30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04E30C8C20871B9C000A9C30 /* PSForgetPwdView.h */,
+				04E30C8D20871B9C000A9C30 /* PSForgetPwdView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04E30C8020871525000A9C30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04E30C812087152E000A9C30 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		04E30C8220871534000A9C30 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				04E30C87208715A6000A9C30 /* ForgetTargetAction.h */,
+				04E30C88208715A6000A9C30 /* ForgetTargetAction.m */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		04E30C832087153D000A9C30 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				04E30C8A20871848000A9C30 /* ForgetPwd.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		3D7BD6FED1C41304FF7D06D9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -893,6 +980,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E30C8B20871848000A9C30 /* ForgetPwd.xcassets in Resources */,
 				040701A120848BF100AA1F2B /* Tabbar.xcassets in Resources */,
 				0497D33F2085EC1C002D7C95 /* BKLoadingShoppingCart.bundle in Resources */,
 				040701BD20857FD200AA1F2B /* Login.xcassets in Resources */,
@@ -976,8 +1064,10 @@
 				0497D32E2085DBE8002D7C95 /* PSPwdTextField.m in Sources */,
 				04E30C6C20860252000A9C30 /* RegisterAction.m in Sources */,
 				04E30C782086E6D5000A9C30 /* PSTools.m in Sources */,
+				04E30C862087155C000A9C30 /* ForgetPwdViewController.m in Sources */,
 				04826E222020BBA6009D8609 /* Mediator+DayPiece.m in Sources */,
 				04E30C712086D7C8000A9C30 /* RegisterView.m in Sources */,
+				04E30C8E20871B9C000A9C30 /* PSForgetPwdView.m in Sources */,
 				04E30C5F208600C7000A9C30 /* Mediator+Register.m in Sources */,
 				04826DFC2020B4BA009D8609 /* Common.m in Sources */,
 				04826DA5201F58FF009D8609 /* ViewController.m in Sources */,
@@ -990,6 +1080,7 @@
 				04826DF42020B356009D8609 /* RootNavigationController.m in Sources */,
 				0497D33C2085EC1C002D7C95 /* BKAnimatedAlert.m in Sources */,
 				04826DB0201F58FF009D8609 /* main.m in Sources */,
+				04E30C7C2087145E000A9C30 /* Mediator+ForgetPwd.m in Sources */,
 				04826DD5201F5C07009D8609 /* Mediator.m in Sources */,
 				04826E1F2020BB94009D8609 /* Mediator+Mall.m in Sources */,
 				04826DDA2020A052009D8609 /* Mediator+KKGuidePage.m in Sources */,
@@ -999,6 +1090,7 @@
 				04826E2B2020BBC6009D8609 /* Mediator+Mine.m in Sources */,
 				04826DA2201F58FF009D8609 /* AppDelegate.m in Sources */,
 				04826E252020BBB2009D8609 /* Mediator+RunPiece.m in Sources */,
+				04E30C89208715A6000A9C30 /* ForgetTargetAction.m in Sources */,
 				04826E132020B921009D8609 /* MineViewController.m in Sources */,
 				04826DF02020AB61009D8609 /* PSGuidePageCell.m in Sources */,
 				04826DED2020A991009D8609 /* PSGuidePageController.m in Sources */,

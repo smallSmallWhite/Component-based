@@ -12,6 +12,7 @@
 #import "PSLoginView.h"
 #import "PSThirdLoginView.h"
 #import "Mediator+Register.h"
+#import "Mediator+ForgetPwd.h"
 
 @interface LoginViewController ()<PSLoginViewDelegate,PSThirdLoginViewDelegate>
 
@@ -98,7 +99,11 @@
             break;
         case 5002:
         {
-            [HUD showMessage:@"点击忘记密码按钮"];
+            //忘记密码
+            UIViewController *vc = [[Mediator sharedInstance] kkUser_ForgetPwdViewController];
+            UINavigationController *navC = [[UINavigationController alloc] initWithRootViewController:vc];
+            [self presentViewController:navC animated:YES completion:nil];
+            
         }
             break;
             

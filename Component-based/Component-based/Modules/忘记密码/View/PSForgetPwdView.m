@@ -1,15 +1,15 @@
 //
-//  RegisterView.m
+//  PSForgetPwdView.m
 //  Component-based
 //
 //  Created by mac on 2018/4/18.
 //  Copyright © 2018年 mac. All rights reserved.
 //
 
-#import "RegisterView.h"
+#import "PSForgetPwdView.h"
 #import "Public.h"
 
-@interface RegisterView ()
+@interface PSForgetPwdView ()
 
 //账号View
 @property (nonatomic,strong) UIView *accountView;
@@ -35,7 +35,7 @@
 @end
 
 
-@implementation RegisterView
+@implementation PSForgetPwdView
 
 -(instancetype)initWithFrame:(CGRect)frame {
     
@@ -74,14 +74,14 @@
     
     [self.accountView mas_makeConstraints:^(MASConstraintMaker *make) {
         
-        make.top.equalTo(self).offset(20);
+        make.top.equalTo(self).offset(30);
         make.leading.equalTo(self).offset(27);
         make.trailing.equalTo(self).offset(-27);
-        make.height.equalTo([self autoScaleH:50]);
+        make.height.equalTo([self autoScaleH:44]);
     }];
     [self.accountImg mas_makeConstraints:^(MASConstraintMaker *make) {
         
-        make.leading.equalTo(self.accountView).offset(0);
+        make.leading.equalTo(self.accountView).offset(10);
         make.centerY.equalTo(self.accountView).offset(0);
         make.width.height.equalTo(20);
     }];
@@ -92,70 +92,70 @@
         make.centerY.equalTo(self.accountView).offset(0);
         make.height.equalTo(30);
     }];
-    [self.accountLineView mas_makeConstraints:^(MASConstraintMaker *make) {
-        
-        make.leading.equalTo(self.accountView).offset(0);
-        make.trailing.equalTo(self.accountView).offset(0);
-        make.top.equalTo(self.accountView.mas_bottom).offset(-0.5);
-        make.width.height.equalTo(0.5);
-    }];
+//    [self.accountLineView mas_makeConstraints:^(MASConstraintMaker *make) {
+//
+//        make.leading.equalTo(self.accountView).offset(0);
+//        make.trailing.equalTo(self.accountView).offset(0);
+//        make.top.equalTo(self.accountView.mas_bottom).offset(-0.5);
+//        make.width.height.equalTo(0.5);
+//    }];
     [self.verificationCodeView mas_makeConstraints:^(MASConstraintMaker *make) {
         
-        make.top.equalTo(self.accountView.mas_bottom).offset(0);
+        make.top.equalTo(self.accountView.mas_bottom).offset(10);
         make.leading.equalTo(self).offset(27);
         make.trailing.equalTo(self).offset(-27);
-        make.height.equalTo([self autoScaleH:50]);
+        make.height.equalTo([self autoScaleH:44]);
     }];
     
     [self.verificationCodeImg mas_makeConstraints:^(MASConstraintMaker *make) {
         
-        make.leading.equalTo(self.verificationCodeView).offset(0);
+        make.leading.equalTo(self.verificationCodeView).offset(10);
         make.centerY.equalTo(self.verificationCodeView).offset(0);
         make.width.height.equalTo(20);
     }];
-    [self.verificationCodeLineView mas_makeConstraints:^(MASConstraintMaker *make) {
-        
-        make.leading.equalTo(self.verificationCodeView).offset(0);
-        make.trailing.equalTo(self.verificationCodeView).offset(0);
-        make.top.equalTo(self.verificationCodeView.mas_bottom).offset(-0.5);
-        make.width.height.equalTo(0.5);
-    }];
+//    [self.verificationCodeLineView mas_makeConstraints:^(MASConstraintMaker *make) {
+//
+//        make.leading.equalTo(self.verificationCodeView).offset(0);
+//        make.trailing.equalTo(self.verificationCodeView).offset(0);
+//        make.top.equalTo(self.verificationCodeView.mas_bottom).offset(-0.5);
+//        make.width.height.equalTo(0.5);
+//    }];
     [self.verifyCodeBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-       
+        
         make.trailing.equalTo(self.verificationCodeView).offset(0);
         make.centerY.equalTo(self.verificationCodeView).offset(0);
         make.width.equalTo([self autoScaleW:80]);
-        make.height.equalTo([self autoScaleH:38]);
+        make.height.equalTo([self autoScaleH:44]);
     }];
     [self.verifyTF mas_makeConstraints:^(MASConstraintMaker *make) {
-       
+        
         make.leading.equalTo(self.verificationCodeImg.mas_trailing).offset(12);
         make.trailing.equalTo(self.verifyCodeBtn.mas_leading).offset(-12);
         make.centerY.equalTo(self.verificationCodeView).offset(0);
     }];
     [self.pwdView mas_makeConstraints:^(MASConstraintMaker *make) {
         
-        make.top.equalTo(self.verificationCodeView.mas_bottom).offset(0);
+        make.top.equalTo(self.verificationCodeView.mas_bottom).offset(10);
         make.leading.equalTo(self).offset(27);
         make.trailing.equalTo(self).offset(-27);
-        make.height.equalTo([self autoScaleH:50]);
+        make.height.equalTo([self autoScaleH:44]);
     }];
     [self.pwdImg mas_makeConstraints:^(MASConstraintMaker *make) {
         
-        make.leading.equalTo(self.pwdView).offset(0);
+        make.leading.equalTo(self.pwdView).offset(10);
         make.centerY.equalTo(self.pwdView).offset(0);
         make.width.height.equalTo(20);
     }];
-    [self.pwdLineView mas_makeConstraints:^(MASConstraintMaker *make) {
-        
-        make.leading.equalTo(self.pwdView).offset(0);
-        make.trailing.equalTo(self.pwdView).offset(0);
-        make.top.equalTo(self.pwdView.mas_bottom).offset(-0.5);
-        make.height.equalTo(0.5);
-    }];
+//    [self.pwdLineView mas_makeConstraints:^(MASConstraintMaker *make) {
+//
+//        make.leading.equalTo(self.pwdView).offset(0);
+//        make.trailing.equalTo(self.pwdView).offset(0);
+//        make.top.equalTo(self.pwdView.mas_bottom).offset(-0.5);
+//        make.height.equalTo(0.5);
+//    }];
     [self.changeBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-       
-        make.trailing.equalTo(self.pwdView).offset(0);
+        
+        make.trailing.equalTo(self.pwdView).offset(-10);
         make.centerY.equalTo(self.pwdView).offset(0);
         make.width.height.equalTo(20);
     }];
@@ -167,16 +167,16 @@
         make.centerY.equalTo(self.pwdView).offset(0);
     }];
     [self.messageLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-       
+        
         make.leading.equalTo(self).offset(27);
         make.trailing.equalTo(self).offset(-27);
         make.top.equalTo(self.pwdView.mas_bottom).offset(11);
     }];
     [self.registerBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-       
+        
         make.top.equalTo(self.messageLabel.mas_bottom).offset(46);
         make.leading.equalTo(self).offset(27);
-         make.trailing.equalTo(self).offset(-27);
+        make.trailing.equalTo(self).offset(-27);
         make.height.equalTo([self autoScaleH:44]);
     }];
 }
@@ -216,7 +216,7 @@
     if (!_accountImg) {
         
         _accountImg = [[UIImageView alloc] init];
-        _accountImg.image = [UIImage imageNamed:@"register_shouji.png"];
+        _accountImg.image = [UIImage imageNamed:@"forgetPwd_account"];
     }
     return _accountImg;
 }
@@ -261,7 +261,7 @@
     if (!_verificationCodeImg) {
         
         _verificationCodeImg = [[UIImageView alloc] init];
-        _verificationCodeImg.image = [UIImage imageNamed:@"register_yanzhengma.png"];
+        _verificationCodeImg.image = [UIImage imageNamed:@"forgetPwd_verifyCode"];
     }
     return _verificationCodeImg;
 }
@@ -302,7 +302,7 @@
     if (!_pwdImg) {
         
         _pwdImg = [[UIImageView alloc] init];
-        _pwdImg.image = [UIImage imageNamed:@"register_mima.png"];
+        _pwdImg.image = [UIImage imageNamed:@"forgetPwd_mima"];
     }
     return _pwdImg;
 }
@@ -354,7 +354,7 @@
         _registerBtn.layer.masksToBounds = YES;
         _registerBtn.tag = 5001;
         [UIButton setBtnTextColor:UIColorFromRGBValue(0x333333) AndFontSize:[self autoScaleW:17] WithBtn:_registerBtn];
-        [_registerBtn setTitle:@"注册" forState:(UIControlStateNormal)];
+        [_registerBtn setTitle:@"完成" forState:(UIControlStateNormal)];
         [_registerBtn addTarget:self action:@selector(clickAction:) forControlEvents:(UIControlEventTouchUpInside)];
     }
     return _registerBtn;
