@@ -51,6 +51,9 @@
 		0497D33F2085EC1C002D7C95 /* BKLoadingShoppingCart.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0497D3382085EC1A002D7C95 /* BKLoadingShoppingCart.bundle */; };
 		0497D3402085EC1C002D7C95 /* HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0497D33A2085EC1B002D7C95 /* HUD.m */; };
 		0497D3462085F01F002D7C95 /* PSThirdLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0497D3452085F01F002D7C95 /* PSThirdLoginView.m */; };
+		04DCA974208726AC008ACE36 /* BondPhoneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DCA973208726AC008ACE36 /* BondPhoneController.m */; };
+		04DCA9772087288E008ACE36 /* BondPhoneAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DCA9762087288E008ACE36 /* BondPhoneAction.m */; };
+		04DCA97A20872EA2008ACE36 /* BondPhoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DCA97920872EA2008ACE36 /* BondPhoneView.m */; };
 		04E30C5F208600C7000A9C30 /* Mediator+Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E30C5E208600C7000A9C30 /* Mediator+Register.m */; };
 		04E30C6920860216000A9C30 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E30C6820860216000A9C30 /* RegisterViewController.m */; };
 		04E30C6C20860252000A9C30 /* RegisterAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E30C6B20860252000A9C30 /* RegisterAction.m */; };
@@ -63,6 +66,7 @@
 		04E30C89208715A6000A9C30 /* ForgetTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E30C88208715A6000A9C30 /* ForgetTargetAction.m */; };
 		04E30C8B20871848000A9C30 /* ForgetPwd.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E30C8A20871848000A9C30 /* ForgetPwd.xcassets */; };
 		04E30C8E20871B9C000A9C30 /* PSForgetPwdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E30C8D20871B9C000A9C30 /* PSForgetPwdView.m */; };
+		04E30C92208724B1000A9C30 /* Mediator+BondPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E30C91208724B1000A9C30 /* Mediator+BondPhone.m */; };
 		8017C408A59B92E4BC55976A /* libPods-Component-based.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97FEC3AECF7BA72CE8D4ACC2 /* libPods-Component-based.a */; };
 /* End PBXBuildFile section */
 
@@ -168,6 +172,12 @@
 		0497D33A2085EC1B002D7C95 /* HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUD.m; sourceTree = "<group>"; };
 		0497D3442085F01F002D7C95 /* PSThirdLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSThirdLoginView.h; sourceTree = "<group>"; };
 		0497D3452085F01F002D7C95 /* PSThirdLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSThirdLoginView.m; sourceTree = "<group>"; };
+		04DCA972208726AC008ACE36 /* BondPhoneController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BondPhoneController.h; sourceTree = "<group>"; };
+		04DCA973208726AC008ACE36 /* BondPhoneController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BondPhoneController.m; sourceTree = "<group>"; };
+		04DCA9752087288E008ACE36 /* BondPhoneAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BondPhoneAction.h; sourceTree = "<group>"; };
+		04DCA9762087288E008ACE36 /* BondPhoneAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BondPhoneAction.m; sourceTree = "<group>"; };
+		04DCA97820872EA2008ACE36 /* BondPhoneView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BondPhoneView.h; sourceTree = "<group>"; };
+		04DCA97920872EA2008ACE36 /* BondPhoneView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BondPhoneView.m; sourceTree = "<group>"; };
 		04E30C5D208600C7000A9C30 /* Mediator+Register.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mediator+Register.h"; sourceTree = "<group>"; };
 		04E30C5E208600C7000A9C30 /* Mediator+Register.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Mediator+Register.m"; sourceTree = "<group>"; };
 		04E30C6720860216000A9C30 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
@@ -190,6 +200,8 @@
 		04E30C8A20871848000A9C30 /* ForgetPwd.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ForgetPwd.xcassets; sourceTree = "<group>"; };
 		04E30C8C20871B9C000A9C30 /* PSForgetPwdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSForgetPwdView.h; sourceTree = "<group>"; };
 		04E30C8D20871B9C000A9C30 /* PSForgetPwdView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSForgetPwdView.m; sourceTree = "<group>"; };
+		04E30C90208724B1000A9C30 /* Mediator+BondPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mediator+BondPhone.h"; sourceTree = "<group>"; };
+		04E30C91208724B1000A9C30 /* Mediator+BondPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Mediator+BondPhone.m"; sourceTree = "<group>"; };
 		16F968B6AB421D3E4A478098 /* Pods-Component-based.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Component-based.release.xcconfig"; path = "Pods/Target Support Files/Pods-Component-based/Pods-Component-based.release.xcconfig"; sourceTree = "<group>"; };
 		38E440A99CC76F0117DC4E88 /* Pods-Component-based.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Component-based.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Component-based/Pods-Component-based.debug.xcconfig"; sourceTree = "<group>"; };
 		97FEC3AECF7BA72CE8D4ACC2 /* libPods-Component-based.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Component-based.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -409,6 +421,7 @@
 		04826DD620209F81009D8609 /* Mediator */ = {
 			isa = PBXGroup;
 			children = (
+				04E30C8F20872481000A9C30 /* 绑定手机 */,
 				04E30C7920871440000A9C30 /* 忘记密码 */,
 				04E30C5C208600AA000A9C30 /* 注册 */,
 				040701A42084A7AF00AA1F2B /* 登录 */,
@@ -433,6 +446,7 @@
 		04826DDB2020A39C009D8609 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				04DCA96B20872647008ACE36 /* 绑定手机 */,
 				04E30C7D2087150F000A9C30 /* 忘记密码 */,
 				04E30C60208601C6000A9C30 /* 注册 */,
 				040701AB2084AA0300AA1F2B /* 登录 */,
@@ -702,6 +716,67 @@
 			path = HUD;
 			sourceTree = "<group>";
 		};
+		04DCA96B20872647008ACE36 /* 绑定手机 */ = {
+			isa = PBXGroup;
+			children = (
+				04DCA97120872692008ACE36 /* Resource */,
+				04DCA97020872687008ACE36 /* Common */,
+				04DCA96F20872678008ACE36 /* Action */,
+				04DCA96E20872670008ACE36 /* Model */,
+				04DCA96D20872669008ACE36 /* View */,
+				04DCA96C20872653008ACE36 /* Controller */,
+			);
+			path = "绑定手机";
+			sourceTree = "<group>";
+		};
+		04DCA96C20872653008ACE36 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04DCA972208726AC008ACE36 /* BondPhoneController.h */,
+				04DCA973208726AC008ACE36 /* BondPhoneController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04DCA96D20872669008ACE36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04DCA97820872EA2008ACE36 /* BondPhoneView.h */,
+				04DCA97920872EA2008ACE36 /* BondPhoneView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04DCA96E20872670008ACE36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04DCA96F20872678008ACE36 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				04DCA9752087288E008ACE36 /* BondPhoneAction.h */,
+				04DCA9762087288E008ACE36 /* BondPhoneAction.m */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		04DCA97020872687008ACE36 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		04DCA97120872692008ACE36 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		04E30C5C208600AA000A9C30 /* 注册 */ = {
 			isa = PBXGroup;
 			children = (
@@ -853,6 +928,15 @@
 				04E30C8A20871848000A9C30 /* ForgetPwd.xcassets */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		04E30C8F20872481000A9C30 /* 绑定手机 */ = {
+			isa = PBXGroup;
+			children = (
+				04E30C90208724B1000A9C30 /* Mediator+BondPhone.h */,
+				04E30C91208724B1000A9C30 /* Mediator+BondPhone.m */,
+			);
+			path = "绑定手机";
 			sourceTree = "<group>";
 		};
 		3D7BD6FED1C41304FF7D06D9 /* Pods */ = {
@@ -1076,17 +1160,20 @@
 				0497D32B2085D3B4002D7C95 /* PSAccountTextField.m in Sources */,
 				04826DE72020A5B5009D8609 /* KKGuideAppearTools.m in Sources */,
 				040701B72084AAEA00AA1F2B /* LoginViewController.m in Sources */,
+				04E30C92208724B1000A9C30 /* Mediator+BondPhone.m in Sources */,
 				04826DE02020A3E5009D8609 /* KKGuidePageAction.m in Sources */,
 				04826DF42020B356009D8609 /* RootNavigationController.m in Sources */,
 				0497D33C2085EC1C002D7C95 /* BKAnimatedAlert.m in Sources */,
 				04826DB0201F58FF009D8609 /* main.m in Sources */,
 				04E30C7C2087145E000A9C30 /* Mediator+ForgetPwd.m in Sources */,
+				04DCA974208726AC008ACE36 /* BondPhoneController.m in Sources */,
 				04826DD5201F5C07009D8609 /* Mediator.m in Sources */,
 				04826E1F2020BB94009D8609 /* Mediator+Mall.m in Sources */,
 				04826DDA2020A052009D8609 /* Mediator+KKGuidePage.m in Sources */,
 				04826E172020B956009D8609 /* KKMainAction.m in Sources */,
 				04E30C742086DE06000A9C30 /* PSVerifyTextField.m in Sources */,
 				0497D3282085CA0E002D7C95 /* PSLoginView.m in Sources */,
+				04DCA97A20872EA2008ACE36 /* BondPhoneView.m in Sources */,
 				04826E2B2020BBC6009D8609 /* Mediator+Mine.m in Sources */,
 				04826DA2201F58FF009D8609 /* AppDelegate.m in Sources */,
 				04826E252020BBB2009D8609 /* Mediator+RunPiece.m in Sources */,
@@ -1097,6 +1184,7 @@
 				04E30C6920860216000A9C30 /* RegisterViewController.m in Sources */,
 				040701BB2084ADE000AA1F2B /* UserCenter.m in Sources */,
 				04826E0A2020B8D5009D8609 /* DaypieceViewController.m in Sources */,
+				04DCA9772087288E008ACE36 /* BondPhoneAction.m in Sources */,
 				04826DFF2020B50F009D8609 /* PSWMainTabbarController.m in Sources */,
 				0497D3462085F01F002D7C95 /* PSThirdLoginView.m in Sources */,
 			);

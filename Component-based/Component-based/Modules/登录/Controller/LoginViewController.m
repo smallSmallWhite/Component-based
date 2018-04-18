@@ -13,6 +13,7 @@
 #import "PSThirdLoginView.h"
 #import "Mediator+Register.h"
 #import "Mediator+ForgetPwd.h"
+#import "Mediator+BondPhone.h"
 
 @interface LoginViewController ()<PSLoginViewDelegate,PSThirdLoginViewDelegate>
 
@@ -127,6 +128,9 @@
         case 6002:
         {
             [HUD showMessage:@"点击用户协议按钮"];
+            UIViewController *vc = [[Mediator sharedInstance] bondPhoneWithNickName:@"" withAvatar:@"" withGender:1 withType:@"" withUid:@"" withAccessToken:@""];
+            UINavigationController *navC = [[UINavigationController alloc] initWithRootViewController:vc];
+            [self presentViewController:navC animated:YES completion:nil];
         }
             break;
             
